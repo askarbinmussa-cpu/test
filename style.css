@@ -10,6 +10,7 @@ body {
 
 ul {
   list-style-type: circle;
+  color:#515076
 }
 
 .all-elements {
@@ -65,7 +66,7 @@ ul {
 .product-card__title {
   display: block;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: #515076;
   margin-bottom: 8px;
 }
@@ -78,6 +79,7 @@ ul {
 }
 
 .product-card__composition {
+  color: #515076;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 4px;
@@ -97,7 +99,10 @@ ul {
 }
 
 .product-card__price {
-  font-size: 16px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 20px;
   color: #515076;
 }
 
