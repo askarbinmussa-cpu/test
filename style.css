@@ -13,6 +13,12 @@ ul {
   color:#515076
 }
 
+.buttons {
+  position: absolute;
+  top: 20px;
+  right: 50%;
+}
+
 .all-elements {
   width: 1110px;
   display:flex;
