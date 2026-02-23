@@ -6,7 +6,7 @@ const blueHashColor = '#0000FF';
 
 recolorFirstCardButton.addEventListener('click', () => {
   firstProductCard.style.backgroundColor = blueHashColor;
-})
+});
 
 // Покраска всех карточек
 
@@ -18,7 +18,7 @@ recolorAllCardButton.addEventListener('click', () => {
   productCards.forEach(
     card => card.style.backgroundColor = greenHashColor
   );
-})
+});
 
 // Переход на старицу Google
 
@@ -27,7 +27,7 @@ openGoogleButton.addEventListener('click', openGoogle);
 
 function openGoogle() {
   const answer = confirm ('Подтвердите действие');
-  if( answer === true) {
+  if (answer === true) {
     window.open('https://google.com');
   }
   else {
